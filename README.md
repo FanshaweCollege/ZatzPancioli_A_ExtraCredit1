@@ -1,13 +1,16 @@
-##Extra Credit Assignment 1
+**Extra Credit Assignment 1**
 
-##Getting Started
-###The repo can be downloaded directly from GitHub or using terminal, with the command git clone https://github.com/annapancioli/ZatzPancioli_A_ExtraCredit1.git
+**Getting Started**
+The repo can be downloaded directly from GitHub or using terminal, with the command git clone https://github.com/annapancioli/ZatzPancioli_A_ExtraCredit1.git
 
-##Prerequisites
-###-SASS<br>
-###-GULP<br>
-###-NPM<br>
-###-NODE<br>
+**Prerequisites/Installations**
+-SASS
+-GULP
+-NPM
+-NODE
 
-##Author
-###Anna Carolina Zatz Pancioli
+**Built with**
+Visual Studio Code
+
+**Author**
+Anna Carolina Zatz Pancioli
