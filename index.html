@@ -70,20 +70,22 @@
       </div>
       <div class="profPanel panel panel-default">
         <div class="profPanelText">
-
           <!-- <h2 class="hidden">Prof Panel</h2> -->
 
           <!-- REPLACE THIS CONTENT WITH DATA PULLED IN FROM classData.js -->
 
-          <p class="text-muted"><span class="text-primary"></span></p>
-          <p></p>
+          <p class="text-muted" id="bcu"></p>
+          <p id="pName"></p>
           <!-- class times go here -->
-          <ul class="list-inline"></ul>
+          <ul class="list-inline" id="time">
+            <span class="fa fa-clock-o fa-flip-horizontal"></span><li></span></li>
+            <span class="fa fa-clock-o fa-flip-horizontal"></span><li></li>
+          </ul>
 
           <!-- END DYNAMIC DATA -->
         </div>
 
-        <img src="" alt="prof image" class="img-circle profileImg">        
+        <img src="" alt="prof image" class="img-circle profImg">        
       </div>
     </section>
 
@@ -112,10 +114,10 @@
         <article class="courseInfo">
 
           <!-- REPLACE ALL OF THIS CONTENT WITH DATA FROM classData.js -->
-          <h2></h2>
+          <h2 id="courseTitle"></h2>
           <hr>
           <h3>Course Description:</h3>
-          <p></p>
+          <p id="courseDesc"></p>
           <!-- END DYNAMIC DATA -->
         </article>
        </div>
@@ -127,7 +129,12 @@
           <h2 class="hidden">Schedule</h2>
 
           <!-- loop through the course content and build the nav -->
-          <ul class="list-unstyled list-inline"></ul>
+          <ul class="list-unstyled list-inline" id="courseCont">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
           <!-- end dynamic nav -->
 
           <div class="navIndicator"></div>
@@ -244,6 +251,6 @@
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="data/classData.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
